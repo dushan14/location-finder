@@ -88,10 +88,8 @@ public class LocationFinder {
 
         // P is the point we are looking P = (x_,y_)
 
-        //
-        //      x_= (r1**2 - r2**2 + distanceBetweenB1B2**2)/2*distanceBetweenB1B2
-        //      y_= +-[sqrt(r1**2 -x_**2)]
-        //
+        //  x_= (r1**2 - r2**2 + distanceBetweenB1B2**2)/2*distanceBetweenB1B2
+        //  y_= +-[sqrt(r1**2 -x_**2)]
 
         double x_ = ( Math.pow(r1,2) - Math.pow(r2,2) + Math.pow(b1b2,2) ) / (2 * b1b2);
 

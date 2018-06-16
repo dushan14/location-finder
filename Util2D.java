@@ -10,10 +10,10 @@ public class Util2D {
     }
 
     public static Coordinate2D rotateAntiClockwiseXY(Coordinate2D pointToBeRotated, double angle){
-        /*
-                x_ = x cos (antiClockwiseAngle) - y sin (antiClockwiseAngle)
-                y_ = y cos (antiClockwiseAngle) + x sin (antiClockwiseAngle)
-         */
+
+        //  x_ = x cos (antiClockwiseAngle) - y sin (antiClockwiseAngle)
+        //  y_ = y cos (antiClockwiseAngle) + x sin (antiClockwiseAngle)
+
         double x_= pointToBeRotated.getX()*Math.cos(angle) -pointToBeRotated.getY()*Math.sin(angle);
         double y_ = pointToBeRotated.getY()*Math.cos(angle) + pointToBeRotated.getX()*Math.sin(angle);
         
