@@ -1,4 +1,6 @@
-package com.example.com.beacontri.LocationFindingAlgorithm;
+package company.com.locationfinder.LocationFindingAlgorithm;
+
+import java.text.DecimalFormat;
 
 public class Coordinate2D {
 
@@ -25,4 +27,9 @@ public class Coordinate2D {
         public float getY() {
             return (float) y;
         }
+
+    @Override
+    public String toString() {
+        return "x=" + x +", y=" + y;
+    }
 }
